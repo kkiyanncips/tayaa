@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Life, Laugh,Love You 😑</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #87CEEB;
+            font-family: Arial, sans-serif;
+        }
+
+        .love {
+            text-align: center;
+        }
+
+        /* Hati muncul pertama */
+        .heart {
+            font-size: 100px;
+            opacity: 0;
+            animation: muncul 1s ease forwards, beat 1s infinite 1s;
+        }
+
+        /* Tulisan muncul kedua */
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 5px #0066cc;
+            opacity: 0;
+            animation: muncul 1s ease forwards;
+            animation-delay: 1.5s;
+        }
+
+        /* Kalimat muncul ketiga */
+        p {
+            color: white;
+            font-size: 20px;
+            opacity: 0;
+            animation: muncul 1s ease forwards;
+            animation-delay: 3s;
+        }
+
+        /* Animasi muncul */
+        @keyframes muncul {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animasi detak jantung */
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="love">
+
+        <div class="heart">￣へ￣</div>
+
+        <h1>TAYAAAAA STRESSSS💢💢</h1>
+
+        <p>Tolong yaaa buat yang namanya tayaa, jangan stress stress banget</p>
+        <p>kekkkk anjenkk tau ga?</p>
+        <p>BABI PUQIMAAA KALII🐷</p>
+
+    </div>
+
+</body>
+</html>
+```
